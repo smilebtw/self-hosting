@@ -1,0 +1,11 @@
+!calibre-web/
+calibre-web/*
+
+!calibre-web/library/
+calibre-web/library/*
+
+!calibre-web/data/
+calibre-web/data/*
+
+!calibre-web/library/metadata.db
+!calibre-web/data/.gitkeep
