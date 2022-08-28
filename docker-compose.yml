@@ -1,0 +1,22 @@
+version: "3"
+
+services:
+  calibre:
+    image: lscr.io/linuxserver/calibre-web:latest
+    container_name: calibre
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/Sao_Paulo
+    networks:
+      - local
+    volumes:
+      - ./calibre-web/data:/config
+      - ./calibre-web/library:/books
+    ports:
+      - 8083:8083
+    restart: unless-stopped
+        
+networks:
+  local:
+    driver: bridge
