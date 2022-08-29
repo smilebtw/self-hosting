@@ -3,18 +3,23 @@
 ### 📝 Currently hosting
 
 - [X] Calibre
+- [X] Gitea
 - [ ] SearX
 - [ ] Beancount
+- [ ] DevDocs
 
-## :wrench: Usage
+## 🔧 Usage
 
 ```sh
 git clone https://github.com/sudoga/self-hosting/
 cd self-hosting
-docker-compose up --build
+# Downloading the static files for the gitea instance
+make get_static 
+docker-compose up --build -d
 ```
 
 ## ⛕ Routes
 
 **calibre:** `localhost/calibre`
 
+**gitea:** `localhost/gitea`
