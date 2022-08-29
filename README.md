@@ -12,7 +12,7 @@
 ## 🔧 Usage
 
 ```sh
-git clone https://github.com/sudoga/self-hosting/ --recursive-modules
+git clone https://github.com/sudoga/self-hosting/ --recurse-submodules
 cd self-hosting
 # Downloading the static files for the gitea instance
 make get_static 
