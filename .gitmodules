@@ -1,3 +1,3 @@
-[submodule "web/themes/cactusl"]
-	path = web/themes/cactusl
-	url = https://github.com/monkeyWzr/hugo-theme-cactus.git
+[submodule "web/themes/cactus"]
+	path = web/themes/cactus
+	url = https://github.com/sudoga/hugo-theme-cactus
