@@ -5,4 +5,5 @@ get_static:
 	mv /tmp/gitea/public/ ./nginx/static/gitea/
 	rm -rf /tmp/gitea/
 	cd .web/ && hugo
+	mv .web/public/ ./nginx/static/hugo/
 
