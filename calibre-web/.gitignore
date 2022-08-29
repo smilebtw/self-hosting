@@ -1,0 +1,8 @@
+!/library/
+/library/*
+
+!/data/
+/data/*
+
+!/library/metadata.db
+!/data/.gitkeep
