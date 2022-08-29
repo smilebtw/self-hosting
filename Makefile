@@ -4,6 +4,6 @@ get_static:
 	mkdir -p ./nginx/static/gitea/
 	mv /tmp/gitea/public/ ./nginx/static/gitea/
 	rm -rf /tmp/gitea/
-	cd .web/ && hugo
-	mv .web/public/ ./nginx/static/hugo/
+	cd ./web/ && hugo
+	mv ./web/public/ ./nginx/static/hugo/
 
