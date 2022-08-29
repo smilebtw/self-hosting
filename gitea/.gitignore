@@ -1,0 +1,4 @@
+git 
+ssh
+gitea/*
+!gitea/conf
